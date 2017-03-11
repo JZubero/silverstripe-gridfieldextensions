@@ -192,13 +192,6 @@
 			}
 		});
 
-		$(".ss-gridfield-add-new-inline").entwine({
-			onclick: function() {
-				this.getGridField().trigger("addnewinline");
-				return false;
-			}
-		});
-
 		$(".ss-gridfield-delete-inline").entwine({
 			onclick: function() {
 				var msg = ss.i18n._t("GridFieldExtensions.CONFIRMDEL", "Are you sure you want to delete this?");
